@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: wheat;
+}
+html{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #625C7E;
+}
+header{
+    margin-left: 13rem;
+    padding-top:2rem;
+}
+main{
+    margin: 0 50px;
+}
+footer{
+    padding: 0 25px;
+    margin-left: 13rem;
+}
+.nav--bar{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.nav_menu{
+    margin-right: 20rem;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.info_perso{
+    border: dashed;
+    display: flex;
+    justify-content: space-between;
+}
+.info_perso h1{
+    color: blueviolet;
+    font-size: 20px;
+}
+.info_perso p{
+    font-size: 1rem;
+    font-family: 'Times New Roman',  serif;
+
+}
+
+.photo{
+    border: dashed;
+    width: 320px;
+    height: 320px;
+}
+
+.img_name{
+    position: relative;
+    border-radius: 50%;
+    border: dashed;
+    
+}
+
+.img_name img{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
